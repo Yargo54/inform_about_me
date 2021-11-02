@@ -12,25 +12,28 @@ function App() {
         <img 
           src={logo} 
           alt="logo"
-          className={style.img}
-        />
+          className={style.img}/>
         <Link 
           to="/form" 
-          className={`${style.link} ${style.link__form}`}
-        >
+          className={`${style.link} ${style.link__form}`}>
           Форма
         </Link>  
         <Link 
           to="/preview" 
-          className={style.link}
-        >
+          className={style.link}>
           Превью
         </Link>  
       </header>
       <hr className={style.hr}/>
       <main>
-        <Route path='/form' component={Form} />
-        <Route path='/preview' component={Preview} />
+        <Route 
+          path='/form' 
+          component={Form} 
+          exact/>
+        <Route 
+          path='/preview' 
+          component={Preview} 
+          exact/>
       </main>
       <footer>
 

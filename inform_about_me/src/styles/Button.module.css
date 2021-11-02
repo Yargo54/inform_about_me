@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.buttonAdd{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: grid;
+    grid-column-gap: 4px;
+    padding: 10px 20px;
+    align-items: center;
+    width: 188px;
+    border: 2px solid #01A7FD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: none;
+    color: #01A7FD;
+    justify-self: end;
+    margin-top: 33px;
+}
+
+.buttonAdd__plus{
+    grid-row-start: 1;
+    justify-self: end;
+}
+
+.buttonAdd__text{
+    grid-row-start: 1;
+    justify-self: start;
+}
+
+.buttonDel{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #01A7FD;
+    border: none;
+    outline: none;
+    background: none;
+}
