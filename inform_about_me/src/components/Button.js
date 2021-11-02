@@ -23,7 +23,16 @@ function Button({ text, typeButton, add, remove, child }){
                     type="button"
                     onClick={() => remove(child)}
                 >
-                    Удалить
+                    {text}
+                </button>
+            )
+        case "Save":
+            return(
+                <button
+                    className={style.buttonSave}
+                    type="button"
+                >
+                    {text}
                 </button>
             )
     }

@@ -1,68 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.personalInform{
+.mainForm{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.formPersInform{
-    grid-column-start: 2;
-    width: 616px;
-}
-
-.spanPersInform{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #111111;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-
-.labelPersInform{
-    display: grid;
-    border: 1px solid #F1F1F1;
-    border-radius: 4px;
-    background: #FFFFFF;
-    grid-column-start: 2;
-    margin-top: 10px;
-}
-
-.child{
-    grid-column-start: 2;
-    width: 616px;
-}
-
-.child__text{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #111111;
-    align-self: end;
-    width: 115px;
-}
-
-.formChildInform{
-    grid-column-start: 2;
-    width: 616px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    grid-column-gap: 18px;
-    margin-top: 20px;
-    grid-row-gap: 10px;
-}
-
-.labelChildInform{
-    display: grid;
-    border: 1px solid #F1F1F1;
-    border-radius: 4px;
-    background: #FFFFFF;
-    width: 258px;
 }
