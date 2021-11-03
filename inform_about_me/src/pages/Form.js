@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import style from "../styles/Form.module.css";
-import Input from "../components/Input";
 import Button from "../components/Button";
 import AboutMe from "../components/AboutMe";
 import AboutChild from "../components/AboutChild";
@@ -26,9 +25,9 @@ function Form() {
 
     return(
         <div className={style.mainForm}>
-            <AboutMe />
+            <AboutMe page="form"/>
             <Button text="Добавить ребёнка" typeButton="Add" add={addChildren}/>
-            <AboutChild remove={delChildren} childrenArray={childrenArray}/>
+            <AboutChild remove={delChildren} childrenArray={childrenArray} page="form"/>
             {
                 childrenArray.length != 0
                     ?
