@@ -22,9 +22,13 @@
     justify-self: end;
 }
 
-.buttonAdd__text{
+.buttonAdd__text__On{
     grid-row-start: 1;
     justify-self: start;
+}
+
+.buttonAdd__text__Off{
+    justify-self: center;
 }
 
 .buttonDel{
@@ -54,4 +58,5 @@
     outline: none;
     grid-column-start: 2;
     margin-top: 40px;
+    margin-bottom: 20px;
 }

@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../styles/Input.module.css"
 
-function Input({ title, type, placeholder }) {
+function Input({ name, title, ...props }) {
+
     return(
         <>
             <div className={style.input__title}>{title}</div>
             <input 
-                type={type} 
-                placeholder={placeholder}
+                {...props}
                 className={style.input}
+                name={name}
             />
         </>
     )
