@@ -16,7 +16,6 @@ function Form() {
     };
 
     const[childrenArray, setChildren] = useState([]);
-    const [child, setChild] = useState()
 
     const[nameMe, setName] = useState('');
     const[ageMe, setAge] = useState('');

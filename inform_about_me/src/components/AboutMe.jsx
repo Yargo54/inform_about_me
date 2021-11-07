@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../styles/AboutMe.module.css"
 import Input from "../components/Input";
-import { useSelector } from "react-redux";
 
 function AboutMe({ page, nameMe, ageMe, setName, setAge }) {
 

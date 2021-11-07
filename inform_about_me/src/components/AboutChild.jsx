@@ -9,7 +9,13 @@ function AboutChild({ remove, childrenArray, page, formData, handleCgange }) {
         case "form":
             return(
                 <>
-                    <div className={style.child__text}>Дети (макс. 5)</div>
+                    {
+                        childrenArray.length > 0 
+                            ?
+                                <div className={style.child__text}>Дети (макс. 5)</div>
+                            :
+                                ""
+                    }
                     <form className={style.formChildInform} id="children_form" onSubmit={(e) => {
                         e.preventDefault()
                         localStorage.setItem ("child", JSON.stringify(formData));

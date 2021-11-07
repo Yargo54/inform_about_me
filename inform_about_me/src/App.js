@@ -7,7 +7,7 @@ import Preview from "./pages/Preview";
 
 function App() {
   return(
-    <>
+    <div className={style.div__main}>
       <header className={style.header}>
         <img 
           src={logo} 
@@ -35,10 +35,10 @@ function App() {
           component={Preview} 
           exact/>
       </main>
-      <footer>
-
+      <footer className={style.footer}>
+        <p className={style.footer_p}>all rights reserved</p>
       </footer>
-    </>
+    </div>
   )
 }
 
